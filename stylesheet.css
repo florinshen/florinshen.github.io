@@ -133,3 +133,102 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* ── Publication list ── */
+.pub-item {
+  margin-bottom: 2em;
+}
+
+.pub-thumbnail {
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+  width: 100%;
+  height: auto;
+  max-height: 110px;
+  object-fit: contain;
+  background: #f8f9fa;
+}
+
+.pub-thumbnail:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.publication-toggle-button {
+  cursor: pointer;
+  color: #1772d0;
+  padding: 4px 12px;
+  border-radius: 15px;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  font-weight: 500;
+  user-select: none;
+}
+
+.publication-toggle-button:hover {
+  background-color: #e9ecef;
+  color: #1772d0;
+}
+
+.publication-toggle-button.active {
+  background-color: #1772d0;
+  color: white;
+}
+
+/* ── Profile photo ── */
+.profile-pic {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 120px;
+}
+
+.profile-pic:hover {
+  transform: scale(1.04) translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+}
+
+/* ── Section headings ── */
+h4.section-heading {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 6px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+/* ── News list ── */
+.news-list li {
+  margin-bottom: 6px;
+}
+
+/* ── Contact icons ── */
+.contact-links a {
+  margin-right: 12px;
+  font-size: 14px;
+}
+
+/* ── Bootstrap override: page width ── */
+.page-container {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ── Bibtex collapse block ── */
+.bibtex-block {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 12px;
+  white-space: pre-wrap;
+  margin-top: 6px;
+
+
+}
