@@ -232,3 +232,11 @@ h4.section-heading {
 
 
 }
+
+/* Job-market note under the bio */
+.job-note {
+  background-color: #eef5fd;
+  border-left: 3px solid #1772d0;
+  border-radius: 0 4px 4px 0;
+  padding: 8px 12px;
+}
