@@ -240,3 +240,11 @@ h4.section-heading {
   border-radius: 0 4px 4px 0;
   padding: 8px 12px;
 }
+
+/* Award badge next to a venue line */
+.award-badge {
+  font-weight: 700;
+  color: #c9731a;
+}
+.award-badge:hover { color: #f09228; }
+.award-badge i { font-size: 0.9em; }
